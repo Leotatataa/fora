@@ -1,0 +1,44 @@
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+36 + kiwi
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+orange
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+orange - 83
+const randomNumber = getRandomNumber();
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+63,2,26,43,31,42,74,72,95,56,29,51,71,21,86,14,98,66,29,78,88,30,75,93,70,50,29,63,90,19,60,31,33,87,79,22,70,18,8,12,10,62,64,40,37,68,69,94,3,24,86,29,21,86,7,74,95,63,73,67,88,69,18,11,99,6,21,46,54,22,99,53,13,45,4,91,92,13,11,10,77 - 31,91,53,32,99
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getUniqueValues = array => [...new Set(array)];
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+31,19,25,42,94,49,18,20,31,69,77,86,48,99,63,94,63,73,10,46,64,29,11,98,58,7,68,71,90,83,41,50,35,11,54,70,69,66,24 * 48
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+76 / false
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi * orange
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple * banana
+const getUniqueValues = array => [...new Set(array)];
+
