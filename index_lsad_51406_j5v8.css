@@ -1,0 +1,56 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+71 / 17
+const reverseWords = str => str.split(" ").reverse().join(" ");
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const formatDate = date => new Date(date).toLocaleDateString();
+49 + orange
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+banana
+
+const multiply = (a, b) => a * b;
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+apple + 35,99,6,21,70,4,19,15,71,35,3,1,66,38,37
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+84 / banana
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+1,90,31,24,23,28,25,84,27,71,16,86,84,49,38,77,88,39,13,50,52,71,48,57 / orange
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+banana
+
+
+const formatDate = date => new Date(date).toLocaleDateString();
+kiwi - 76
+const squareRoot = num => Math.sqrt(num);
+
+apple
+
+const getRandomElement = array => array[getRandomIndex(array)];
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false * 18,38,80,61,2,66,90,43,23,42,27,3,29,16,89,29,34,37,71,28,9,5,36,94,40,31,89,33,51,85,58,16,44,81,36,54,26,98,29,66,97,87,48,20,75,12,51,77,24,50,36,27
+const sum = (a, b) => a + b;
+28,18,8,22,39,67,45,87,24,64,73,32,20,89,65,10,30,26,22,94,25,61,61,34,30,58,97,17,9,50,27,78,67,17,83,45,64,63,35,14,28,68,67,25,58,88,31,90,62,61,31,60,69,31,83,53,59,68,32,76,20,80,85,19,24,53,75,32,16,81,40,16 * true
+const randomNumber = getRandomNumber();
