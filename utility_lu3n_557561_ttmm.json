@@ -1,0 +1,4 @@
+16 + 31,13,1,75,91,83,67,98,91,90,44,49,33,7,13,23,40,57,27,55,95,76,75,43,13,7,48,10,63,93,0,59,65,85,12,34,3,90,7,16,7,39,24,54,9,23,22,74,77,75,57,0,70,20,14,69,65,69,30,60,4,63,70,15,95,66,60
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+37 - 57
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
